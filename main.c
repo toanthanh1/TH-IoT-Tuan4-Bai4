@@ -74,7 +74,7 @@ uint8_t inbuf[BUFLEN];
 bool rx_done;
 
 // Số lượng ký tự tối đa nhận (có thể tăng lên nếu cần)
-#define MAX_LEN 128
+#define MAX_LEN 120 // thu voi 120 ky tu
 
 uint8_t rx_buffer[MAX_LEN];
 uint32_t rx_len = 0;
